@@ -47,8 +47,8 @@ p {
   line-height: 27px;
 }
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: var(--branding-colour);
+  border: 1px solid var(--branding-colour);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -72,13 +72,31 @@ p {
   h2 {
     font-size: 44px;
   }
+  .row {
+    text-align: center;
+  }
+
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
 
   .hero {
     padding: 80px 20px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .project-desciption {
     padding: 0;
     text-align: center;
   }
+}
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
 }
