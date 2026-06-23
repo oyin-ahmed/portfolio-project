@@ -18,6 +18,9 @@ h5 {
 h1 {
   font-size: 96px;
 }
+h3 {
+  display: auto block;
+}
 p {
   font-weight: normal;
 }
